@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
+    <title>Likes</title>
+</head>
+<body>
+    <!-- Start Container -->
+    <div id="container">
+
+        <!-- Start Header Bar -->
+        <p class="header">Network</p>
+        <p class="headerText">Your Feed</p>
+        <!-- End Header Bar -->
+
+        <!-- Start Main Content Layout -->
+        <div class="pageContent">
+
+            <!-- Start of Column 1 (Left) -->
+            <div class="pageCol1">
+
+                <!-- Start of Avatar Card -->
+                <div class="avatarCard">
+                    <img src="img/user-circle.png" alt="" class="avatarPic">
+                    <a href="#" class="avatarSettings">Add an avatar</a>
+                    <p class="avatarName">James Doe</p>
+                </div>
+                <!-- End of Avatar Card -->
+
+            </div>
+            <!-- End of Column 1 (Left) -->
+
+            <!-- Start of Column 2 (Right) -->
+            <div class="pageCol2">
+
+                <!-- Start Comment Card 1 -->
+                <div class="card">
+                    <div class="cardTop">
+                        <p class="userName">Neil M</p>
+                        <p class="likeCounter"><span class="likes0">0</span> like(s)</p>
+                        <button class="likeBtn" onclick="addLike(0)">Like</button>
+                    </div>
+                    <p class="cardBottom">I just set up this new discord bot, let me know what you all think. <a href="#">link</a> </p>
+                </div>
+                <!-- End Comment Card 1 -->
+
+                <!-- Start Comment Card 2 -->
+                <div class="card">
+                    <div class="cardTop">
+                        <p class="userName">Nichole K</p>
+                        <p class="likeCounter"><span class="likes1">0</span> like(s)</p>
+                        <button class="likeBtn" onclick="addLike(1)">Like</button>
+                    </div>
+                    <p class="cardBottom">Just finished my <a href="#">next comic,</a> check it out.</p>
+                </div>
+                <!-- End Comment Card 2 -->
+
+                <!-- Start Comment Card 3 -->
+                <div class="card">
+                    <div class="cardTop">
+                        <p class="userName">Jim R</p>
+                        <p class="likeCounter"><span class="likes2">0</span> like(s)</p>
+                        <button class="likeBtn" onclick="addLike(2)">Like</button>
+                    </div>
+                    <p class="cardBottom">I can't stop listening to the <a href="#">new album.</a> Who else is liking it?</p>
+                </div>
+                <!-- End Comment Card 3 -->
+
+            </div>
+            <!-- End of Column 2 (Right) -->
+
+        </div>
+        <!-- End Main Content Layout -->
+
+    </div>
+    <!-- End Container -->
+</body>
+</html>

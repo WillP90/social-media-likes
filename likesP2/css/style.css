@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 550px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: black;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 30px;
+    height: 50px;
+    width: auto;
+    padding: 5px;
+}
+
+.headerText{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 600;
+    height: 50px;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.pageContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatarCard{
+    border: 2px solid black;
+    width: 150px;
+    height: 225px;
+}
+
+.avatarPic{
+    height: 70px;
+    margin: 20px 40px;
+}
+
+.avatarSettings{
+    margin: 0 30px;
+}
+
+.avatarName{
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px 10px;
+}
+
+.card{
+    border: 2px solid black;
+    height: 90px;
+    width: 350px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.cardTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.userName{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.likeCounter{
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.likeBtn{
+    background-color: orange;
+    box-shadow: 2px 2px #222;
+    padding: 5px 15px;
+}
+
+.cardBottom{
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 10px;
+}
